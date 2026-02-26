@@ -1,5 +1,9 @@
 module HexFits
 
-greet() = print("Hello World!")
+include("hexbinner.jl")
 
-end # module HexFits
+using .hexbinner: hexbin
+
+export hexbin
+
+end
