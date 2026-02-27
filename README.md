@@ -25,6 +25,8 @@ appropriate header information.
 
 hexbin("/path/to/file.fits")
 
+This will produce a new file with the suffix *-hexbin.fits that maintains the original header information.
+
 Currently your image will need to be square and contain the following keys in the header for 
 the gridsize to be determined: NAXIS1, CDELT2, BMAJ, BMIN.
 
