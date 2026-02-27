@@ -15,7 +15,7 @@ are closer in area to an equivalent circular beam than a square bin, but still s
 
 Note that the positions of the bins are arbitrary depending on your image. As long as the image, beam, 
 and pixel size match between two images you should get the same bin size and positions for both images.  
-This is not useful for precisely targeting specific regions, but can give a broad overview of a points 
+This is not useful for precisely targeting specific regions, but can give a broad overview of points 
 in an extended structure.
 
 ## Usage
