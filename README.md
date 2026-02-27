@@ -8,14 +8,15 @@ A hexbin tool for radio astronomy observations.
 
 I needed it for a project.
 
-The image size, beam size, and pixel size of a fits image are used to determine a gridsize
+The image, beam, and pixel size of a fits image are used to determine a gridsize
 for the hexbin which produces hexagons that are approximately equal in area to one beam size.
 This means each bin is effectively an individual resolved element. Hexagons are chosen as they
 are closer in area to an equivalent circular beam than a square bin, but still stack efficiently.
 
-Note that the positions of the bins are arbitrary depending on your image. This is not useful for
-precisely targeting specific regions, but can give a broad overview of a point in an extended
-structure.
+Note that the positions of the bins are arbitrary depending on your image. As long as the image, beam, 
+and pixel size match between two images you should get the same bin size and positions for both images.  
+This is not useful for precisely targeting specific regions, but can give a broad overview of a points 
+in an extended structure.
 
 ## Usage
 
