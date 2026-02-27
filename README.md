@@ -1,5 +1,7 @@
 # HexFITS
 
+![image](example.png)
+
 A hexbin tool for radio astronomy observations.
 
 ## Motivation
@@ -29,7 +31,7 @@ This has only been tested on FITS images produced by CASA's exportfits task.
 
 ## Acknowledgements
 
-The way the hexbin is handled here is based on the same function in [Matplotlib](https://github.com/matplotlib/matplotlib)
+The way the hexbin is handled here is based on the same function in [Matplotlib](https://github.com/matplotlib/matplotlib).
 
 
 
