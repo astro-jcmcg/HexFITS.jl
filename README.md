@@ -23,7 +23,10 @@ in an extended structure.
 Clone the repo, activate the project, then use the hexbin tool with a path to a FITS file with
 appropriate header information. 
 
-hexbin("/path/to/file.fits")
+hexbin("/path/to/file.fits", orientation=<:vertex or :edge>)
+
+The orientation :vertex will give a grid where the hexagons have a vertex at the top, :edge will give them
+an edge at the top.
 
 This will produce a new file with the suffix *-hexbin.fits that maintains the original header information.
 

@@ -1,7 +1,7 @@
-name = "HexFits"
+name = "HexFITS"
 uuid = "1465c6e1-1cbb-424f-a4d4-267027409048"
 authors = ["James C. McGarry <j.mcgarry@herts.ac.uk>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 FITSFiles = "358a0a88-3548-4ad6-b652-8bdbf64af8e5"

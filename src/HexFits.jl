@@ -1,4 +1,4 @@
-module HexFits
+module HexFITS
 
 include("hexbinner.jl")
 
