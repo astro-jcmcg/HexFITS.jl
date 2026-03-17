@@ -8,5 +8,6 @@ FITSFiles = "358a0a88-3548-4ad6-b652-8bdbf64af8e5"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
+julia = "1.11"
 FITSFiles = "0.3.2"
 Statistics = "1.11.1"
